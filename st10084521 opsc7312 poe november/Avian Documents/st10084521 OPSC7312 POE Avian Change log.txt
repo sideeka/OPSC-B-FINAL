@@ -1,0 +1,27 @@
+st10084521 OPSC7312 POE november
+Change log for Avian: Bird Watchimg app
+
+comapred to my part 3 in my final poe:
+
+Overall Program:
+The program is now user specific which means a user will only be able to view their observation and their points on their profile page.
+
+Notifications:
+Notifications have been added for the successful and un-successful ability of the user to register, login and create an observation.
+
+Home Page:
+I changed the home page, it does not have access to the About Page as this feature was taken out.
+
+nav drawer:
+It now does not have an About Page option as this feature was taken out.
+
+Map page changes:
+- Notes/observations on hotspots are now saved on firebase.
+- The settings for the mesurement type(kilometers / miles) is now saved on firebase. They are updated everytime the user presses on the view route button on the page.
+
+Users Observations:
+- users observations are user specific.
+- the user now required to attach an image to their observation creations. This may be an image that they have taken with their cellphone computer or other device. The user uploads this image from thir locak storage. The user can there after view the image on the profile page(where it shows all the users enteries and if the click on the entry and they are directed to the observation details page where they will be abelt to view the full details of the observation along with the image).
+- These observation details and images are saved and thereafter read from firebase.
+- 50 points are awarded per observation. these points are saved and thereafter read from firebase.
+
